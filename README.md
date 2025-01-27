@@ -119,7 +119,7 @@ MongoDB – For secure and scalable data management.
 Installation and Setup
 Clone the repository:
 https://github.com/anshuparihar31/SkillForge-Personalised-Employee-Training-and-Development-Platform.git
-Install dependencies:
+\n Install dependencies:
 npm install  
 Start the application:
 npm start  
