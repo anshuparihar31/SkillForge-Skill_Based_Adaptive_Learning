@@ -1,0 +1,138 @@
+.skill-assessment-page {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f2f5;
+  }
+  
+  .assessment-header {
+    background-color: #2d87f0;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .assessment-header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+  }
+  
+  .assessment-header p {
+    font-size: 1.1em;
+  }
+  
+  .domain-selection {
+    margin-top: 40px;
+  }
+  
+  .domain-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .domain-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 220px;
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .domain-card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .domain-card h3 {
+    color: #333;
+    margin-bottom: 12px;
+    font-size: 1.4em;
+  }
+  
+  .domain-card p {
+    color: #777;
+    font-size: 0.95em;
+    line-height: 1.4;
+  }
+  
+  .quiz-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 35px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+  }
+  
+  .quiz-container p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .quiz-options {
+    margin: 25px 0;
+  }
+  
+  .quiz-button {
+    background-color: #2d87f0;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quiz-button:hover {
+    background-color: #1864ab;
+  }
+  
+  .start-quiz-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    margin-top: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-quiz-button:hover {
+    background-color: #1e8e54;
+  }
+  
+  .quiz-description {
+    margin-top: 20px;
+    font-size: 1.05em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .domain-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .domain-card {
+        width: 100%;
+        max-width: 300px;
+    }
+  }
+  

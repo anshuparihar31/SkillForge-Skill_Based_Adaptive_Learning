@@ -1,0 +1,21 @@
+.padding-header{
+    padding-left: 10px;  /* Adjust as needed */
+    padding-right: 10px; /* Adjust as needed */
+    padding-top: 15px;   /* Retain original top padding */
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.width{
+    width: 100%;
+}
+
+.footer-left{
+    margin-right: 15px;
+}
+/* 
+.hero-margin{
+    margin-left: 20px;
+} */

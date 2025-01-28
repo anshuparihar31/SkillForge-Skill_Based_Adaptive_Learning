@@ -1,0 +1,91 @@
+/* Profile Card Container */
+.profile-card {
+    max-width: 450px;
+    margin: 50px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-card-body {
+    text-align: center;
+  }
+  
+  .profile-img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .file-input {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  hr {
+    margin: 15px 0;
+    border-color: #e0e0e0;
+  }
+  
+  .profile-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .profile-field label {
+    font-weight: bold;
+  }
+  
+  .profile-field input {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 60%;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .cv-upload label {
+    font-weight: bold;
+  }
+  
