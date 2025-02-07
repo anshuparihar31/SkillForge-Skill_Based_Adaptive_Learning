@@ -104,14 +104,15 @@ cd your-repo-name
 npm install
 ```
 
-## 📜 ** Run Application**
-###🔹 **1.Start BackEnd**
+## 📜 **Run Application**
+
+###🔹**1.Start BackEnd**
 ```sh
 cd backend 
 server.js
 ```
 
-###🔹 **1.Start FrontEnd**
+###🔹**2.Start FrontEnd**
 ```sh
 npm start dev
 ```
