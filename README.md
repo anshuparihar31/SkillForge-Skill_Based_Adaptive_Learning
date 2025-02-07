@@ -1,4 +1,4 @@
-# 🎯 AI-Powered Skill Assessment & Course Recommendation Platform  
+# 🎯 SkillForge-Skill Based Adaptive Learning Platform
 
 🚀 A web-based platform that evaluates users' skills and recommends personalized courses based on their interests and career goals. Using AI-driven assessment, it identifies strengths and weaknesses, offering tailored learning paths to bridge skill gaps and enhance career development.  
 
@@ -97,4 +97,17 @@
 ```sh
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+## 📜 **Installation Dependencies**
+[npm install]
+
+## 📜 ** Run Application**
+###🔹 **1.Start BackEnd**
+[cd backend ]
+[npm start]
+
+###🔹 **1.Start FrontEnd**
+[npm start dev]
+
+
 
