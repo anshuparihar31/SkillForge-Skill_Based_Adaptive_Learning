@@ -97,17 +97,24 @@
 ```sh
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
 ## 📜 **Installation Dependencies**
-[npm install]
+```sh
+npm install
+```
 
 ## 📜 ** Run Application**
 ###🔹 **1.Start BackEnd**
-[cd backend ]
-[npm start]
+```sh
+cd backend 
+server.js
+```
 
 ###🔹 **1.Start FrontEnd**
-[npm start dev]
+```sh
+npm start dev
+```
 
 
 
