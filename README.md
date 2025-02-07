@@ -100,19 +100,20 @@ cd your-repo-name
 ```
 
 ## 📜 **Installation Dependencies**
+
 ```sh
 npm install
 ```
 
 ## 📜 **Run Application**
 
-###🔹**1.Start BackEnd**
+🔹**1.Start BackEnd**
 ```sh
 cd backend 
 server.js
 ```
 
-###🔹**2.Start FrontEnd**
+🔹**2.Start FrontEnd**
 ```sh
 npm start dev
 ```
