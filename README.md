@@ -110,7 +110,7 @@ npm install
 🔹**1.Start BackEnd**
 ```sh
 cd backend 
-server.js
+node server.js
 ```
 
 🔹**2.Start FrontEnd**
