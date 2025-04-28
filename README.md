@@ -93,13 +93,13 @@
 
 ## 📜 **Installation & Setup**  
 
-##🔹 **1. Clone the Repository**  
+###🔹 **1. Clone the Repository**  
 ```sh
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 ## 🔹 **2.Configure Environment**
- # Create a .env file in the backend directory and add:
+Create a .env file in the backend directory and add:
  ```sh
 HUGGING_FACE_API_KEY=your_hugging_face_api_key_here
 ```
