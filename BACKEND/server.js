@@ -131,7 +131,7 @@ app.post('/categorize', async (req, res) => {
     const headers = {
       Authorization: `Bearer ${HUGGING_FACE_API_TOKEN}`,
       'Content-Type': 'application/json',
-      'Accept': 'application/json',
+      'Accept': 'application/json', 
     };
 
     const response = await axios.post(
